@@ -1,0 +1,30 @@
+# Unreal Engine generated folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE
+.vs/
+.idea/
+.vscode/
+
+# Visual Studio / Rider generated files
+*.sln
+*.suo
+*.user
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.DotSettings.user
+
+# Logs
+*.log
+
+# VS config
+.vsconfig
