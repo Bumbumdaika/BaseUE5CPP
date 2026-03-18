@@ -4,12 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Interfaces/InterractInterface.h"
 #include "Base_InterractItem.generated.h"
 
 class UStaticMeshComponent;
 
 UCLASS()
-class BASEUE5CPP_API ABase_InterractItem : public AActor
+class BASEUE5CPP_API ABase_InterractItem : public AActor, public IInterractInterface
 {
 	GENERATED_BODY()
 	
@@ -28,6 +29,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	virtual void Interract_Implementation() override;
 	
 	
 };

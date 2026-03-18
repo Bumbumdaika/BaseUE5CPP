@@ -30,3 +30,8 @@ void ABase_InterractItem::Tick(float DeltaTime)
 
 }
 
+void ABase_InterractItem::Interract_Implementation()
+{
+	
+}
+
