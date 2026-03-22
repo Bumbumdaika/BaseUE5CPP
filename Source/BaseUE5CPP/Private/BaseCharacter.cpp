@@ -3,6 +3,7 @@
 
 #include "BaseCharacter.h"
 #include "Components/HealthActorComponent.h"
+#include "Components/BotSpawnComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
@@ -34,7 +35,7 @@ ABaseCharacter::ABaseCharacter()
 	GetCharacterMovement()->BrakingDecelerationFalling = 1500.0f;
 
 	HealthActorComponent = CreateDefaultSubobject<UHealthActorComponent>(TEXT("HealthActorComponent"));
-	
+
 	
 }
 

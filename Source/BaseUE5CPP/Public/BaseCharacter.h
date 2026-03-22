@@ -8,6 +8,7 @@
 
 class UHealthActorComponent;
 
+
 UCLASS()
 class BASEUE5CPP_API ABaseCharacter : public ACharacter
 {
@@ -24,6 +25,7 @@ protected:
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "HealthActorComponents")
 	TObjectPtr<UHealthActorComponent> HealthActorComponent;
 	
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
