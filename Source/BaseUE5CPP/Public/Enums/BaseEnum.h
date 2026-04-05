@@ -3,13 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "BaseEnum.generated.h"
 
-/**
- * 
- */
-class BASEUE5CPP_API BaseEnum
+UENUM(Blueprintable)
+enum class EBaseEnum : uint8
 {
-public:
-	BaseEnum();
-	~BaseEnum();
+	None UMETA(DisplayName = "None"),
+	Enum1 UMETA(DisplayName = "Enum1"),
+	Enum2 UMETA(DisplayName = "Enum2")
 };
